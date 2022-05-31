@@ -3,6 +3,7 @@ import type { windowRedirect, windowReload, windowRouterPush } from './window/in
 import type { contextLanguage, contextEnvironment, contextLocale, contextCurrency, contextShopwareVersion, contextAppInformation, contextModuleInformation } from './context/index';
 import type { uiComponentSectionRenderer } from './ui/componentSection/index';
 import type { uiTabsAddTabItem } from './ui/tabs';
+import type { uiPaymentOverviewCard } from './ui/paymentOverviewCard/index';
 import type { cmsRegisterElement } from './ui/cms';
 import type { locationUpdateHeight } from './location/index';
 import type { menuItemAdd } from './ui/menu';
@@ -45,6 +46,7 @@ export type ShopwareMessageTypes = {
   getPageTitle: getPageTitle,
   uiComponentSectionRenderer: uiComponentSectionRenderer,
   uiTabsAddTabItem: uiTabsAddTabItem,
+  uiPaymentOverviewCard: uiPaymentOverviewCard,
   cmsRegisterElement: cmsRegisterElement,
   locationUpdateHeight: locationUpdateHeight,
   menuItemAdd: menuItemAdd,
