@@ -57,7 +57,8 @@ Throw a notification:
 ```js
 sw.notification.dispatch({
   title: 'My first notification',
-  message: 'This was really easy to do'
+  message: 'This was really easy to do',
+  variant: 'success' // success, error, warning, info
 })
 ```
 
